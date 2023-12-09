@@ -1,0 +1,14 @@
+/* line 1, app/assets/stylesheets/custom.css.scss */
+.navbar {
+  background-color: #7B66FF !important;
+}
+
+/* line 5, app/assets/stylesheets/custom.css.scss */
+.nav-link {
+  color: white !important;
+}
+
+/* line 9, app/assets/stylesheets/custom.css.scss */
+.navbar-brand {
+  color: white !important;
+}

@@ -1,0 +1,19 @@
+/* line 1, app/assets/stylesheets/custom.css.scss */
+.navbar {
+  background-color: #7B66FF !important;
+}
+
+/* line 5, app/assets/stylesheets/custom.css.scss */
+.nav-link {
+  color: white !important;
+}
+
+/* line 10, app/assets/stylesheets/custom.css.scss */
+#logo {
+  float: left;
+  font-size: 1.2 cm;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}

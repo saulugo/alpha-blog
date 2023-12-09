@@ -1,0 +1,36 @@
+/*color palette:
+https://colorhunt.co/palette/00a9ff89cff3a0e9ffcdf5fd
+*/
+/* line 5, app/assets/stylesheets/custom.css.scss */
+.navbar {
+  background-color: #00A9FF !important;
+}
+
+/* line 9, app/assets/stylesheets/custom.css.scss */
+.nav-link {
+  color: white !important;
+}
+
+/* line 14, app/assets/stylesheets/custom.css.scss */
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+/* line 23, app/assets/stylesheets/custom.css.scss */
+#home-container {
+  margin-top: 25px;
+}
+
+/* line 27, app/assets/stylesheets/custom.css.scss */
+#home-jumbotron {
+  background-image: url(/assets/home-container-ab93a741b738e5038c2754da4efbf2326e888f2314a4809b6056cdbd9f1c47e9.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 575px;
+}
