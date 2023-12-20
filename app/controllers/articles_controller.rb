@@ -21,6 +21,7 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
+    @article.user = User.first #pending to remove this, this is for testing purposes
 
     if @article.save
       flash[:notice] = "Article created!"
