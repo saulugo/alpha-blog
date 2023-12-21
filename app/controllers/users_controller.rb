@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   end
 
   def show
-
+    @articles = Article.where(user_id: @user.id)
   end
 
   def destroy
